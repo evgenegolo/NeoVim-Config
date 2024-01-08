@@ -17,16 +17,19 @@ vim.g.maplocalleader = " "
 --   visual_block_mode = "x",
 --   term_mode = "t",
 --   command_mode = "c",
--- Terminal Config -- 
-keymap("n","<C-/>",":ToggleTerm direction=float <CR>",opts)
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
-
 keymap("n", "<leader>e", ":Neotree <cr>", opts)
+
+--Session save and Session load
+keymap("n","<C-s>",":mksession ~/Documents/sessions/WorkSession.vim ! <CR>",opts)
+keymap("n","<C-l>",":source ~/Documents/sessions/WorkSeasion.vim <CR>",opts)
+-- Terminal Config -- 
+keymap("n","<C-/>",":ToggleTerm direction=float <CR>",opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
