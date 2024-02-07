@@ -23,13 +23,13 @@ keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
-keymap("n", "<leader>e", ":Neotree <cr>", opts)
+keymap("n", "<C-e>", ":Neotree float <cr>", opts)
 
 --Session save and Session load
-keymap("n","<C-s>",":mksession ~/Documents/sessions/WorkSession.vim ! <CR>",opts)
-keymap("n","<C-l>",":source ~/Documents/sessions/WorkSeasion.vim <CR>",opts)
--- Terminal Config -- 
-keymap("n","<C-/>",":ToggleTerm direction=float <CR>",opts)
+keymap("n", "<C-s>", ":mksession ~/Documents/sessions/WorkSession.vim ! <CR>", opts)
+keymap("n", "<C-l>", ":source ~/Documents/sessions/WorkSeasion.vim <CR>", opts)
+-- Terminal Config --
+keymap("n", "<C-/>", ":ToggleTerm direction=float <CR>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
@@ -68,4 +68,3 @@ keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
 keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
