@@ -28,8 +28,6 @@ keymap("n", "<C-e>", ":Neotree float <cr>", opts)
 --Session save and Session load
 keymap("n", "<C-s>", ":mksession ~/Documents/sessions/WorkSession.vim ! <CR>", opts)
 keymap("n", "<C-l>", ":source ~/Documents/sessions/WorkSeasion.vim <CR>", opts)
--- Terminal Config --
-keymap("n", "<C-/>", ":ToggleTerm direction=float <CR>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
