@@ -66,6 +66,32 @@ TBD
 
 TBD
 
+## Configuration Setup
+
+NeoVim configuration files are located in your home directory. For NeoVim version 0.5 or later:
+
+* **Configuration Directory:** `~/.config/nvim/`
+* **Main Configuration File:** `init.lua` or `init.vim`
+
+To set up this configuration:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/PaulRoze/NeoVim-Config ~/.config/nvim
+   ```
+
+2. Navigate to the directory:
+   ```
+   cd ~/.config/nvim
+   ```
+
+3. Ensure that the main configuration file (init.lua or init.vim) is at the root of this directory.
+
+4. Launch NeoVim:
+   ```
+   nvim
+   ```
+
 ## Usage
 
 After the installation is complete, you can start using NeoVim with the custom configuration. Enjoy your enhanced editing experience!
