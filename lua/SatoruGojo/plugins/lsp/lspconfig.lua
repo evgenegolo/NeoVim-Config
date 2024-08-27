@@ -140,8 +140,8 @@ return {
 					},
 				})
 			end,
-			["goplsp"] = function()
-				lspconfig["goplsp"].setup({
+			["gopls"] = function()
+				lspconfig["gopls"].setup({
 					capabilities = capabilities,
 					filetypes = {
 						"go",
