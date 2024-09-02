@@ -1,9 +1,12 @@
-![GitHub License](https://img.shields.io/github/license/PaulRoze/NeoVim-Config)
-![GitHub top language](https://img.shields.io/github/languages/top/PaulRoze/NeoVim-Config)
+![GitHub License](https://img.shields.io/github/license/momowind-su/Satoru-Gojo-NVIM)
+![GitHub top language](https://img.shields.io/github/languages/top/momowind-su/Satoru-Gojo-NVIM)
+![GitHub file size in bytes on a specified ref (branch/commit/tag)](https://img.shields.io/github/size/momowind-su/Satoru-Gojo-NVIM/init.lua?label=init.lua)
 
-# NeoVim Configuration
+# Satoru-Gojo-NVIM: Unleash Infinite Neovim Power
 
-This repository contains a custom NeoVim configuration. Follow the instructions below to set up your environment.
+Channel your inner anime hero with Satoru-Gojo-NVIM! This Neovim config, powered by Lua, is faster and cooler than a shonen battle scene. Code like you’ve got six eyes and endless skills.
+
+Level up your setup—follow the scrolls below!
 
 ## Prerequisites
 
@@ -77,7 +80,7 @@ To set up this configuration:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/PaulRoze/NeoVim-Config ~/.config/nvim
+   git clone https://github.com/momowind-su/Satoru-Gojo-NVIM ~/.config/nvim
    ```
 
 2. Navigate to the directory:
@@ -100,10 +103,13 @@ After the installation is complete, you can start using NeoVim with the custom c
 
 If you encounter any issues during the setup process, please check the error messages and consult the official documentation for [Homebrew](https://docs.brew.sh/), [Node.js](https://nodejs.org/en/docs/), or [NeoVim](https://neovim.io/doc/).
 
-## Contributing
-
-Feel free to submit issues or pull requests if you have suggestions for improvements or encounter any problems.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contributors
+
+Feel free to submit issues or pull requests if you have suggestions for improvements or encounter any problems.
+
+<!-- readme: collaborators,contributors -start -->
+<!-- readme: collaborators,contributors -end -->
